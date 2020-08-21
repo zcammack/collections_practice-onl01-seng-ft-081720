@@ -45,6 +45,6 @@ end
 
 def add_s(array)
   [0, 2..(array.length-1)].each_with_index.collect do |element, index|
-    element + "s"
+    element+"s"
   end
 end
