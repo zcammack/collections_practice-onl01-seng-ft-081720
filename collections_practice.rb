@@ -40,9 +40,8 @@ def find_a(array)
 end
 
 def sum_array(integers)
-  sum = 0
   integers.each do |number|
-    number + sum
+    sum = number + sum
   end
   sum
 end
