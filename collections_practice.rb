@@ -44,11 +44,11 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  [array].each_with_index.collect do |element, index|
-    if index != 1
-      element = element + "s"
+  array.collect do |element|
+    if array[1] == element
+      element
     else
-      element = element
+      element + "s"
     end
   end
 end
