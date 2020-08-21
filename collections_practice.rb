@@ -29,6 +29,6 @@ end
 
 def kesha_maker(strings)
   strings.each do |word|
-    word.sub!([3], "$")
+    word.sub!(word [3], "$")
   end
 end
