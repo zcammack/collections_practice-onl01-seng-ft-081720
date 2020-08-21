@@ -49,5 +49,6 @@ def add_s(array)
       element = element + "s"
     else
       element = element
+    end
   end
 end
